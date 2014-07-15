@@ -1,4 +1,4 @@
 warmup
 ======
 
-IDE Installation &amp; Package Setup Documents
+IDE Installation &amp; Environment Setup Documents
