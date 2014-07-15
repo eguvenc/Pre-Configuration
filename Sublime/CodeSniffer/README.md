@@ -3,7 +3,25 @@
 
 -----
 
-<kbd>Preferences > Package Settings > PHP Code Sniffer > Settings - User</kbd>
+PHP_CodeSniffer is a PHP5 script that tokenises and "sniffs" PHP, JavaScript and CSS files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
+
+#### Installation for Ubuntu
+
+
+```php
+$ pear channel-discover pear.phpmd.org
+$ pear channel-discover pear.pdepend.org
+$ pear install --alldeps phpmd/PHP_PMD
+$ pear install PHP_CodeSniffer
+
+```
+
+#### Enable it for sublime
+
+
+Go <kbd>Preferences > Package Settings > PHP Code Sniffer > Settings - User</kbd>
+
+Obullo use <b>PEAR</b> coding standarts.
 
 ```php
 {
@@ -35,3 +53,5 @@
     },
 }
 ```
+
+Paste it above the text.

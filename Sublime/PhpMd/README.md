@@ -5,9 +5,9 @@
 
 This is the project site of PHPMD. It is a spin-off project of <a href="http://pdepend.org/">PHP Depend</a> and aims to be a PHP equivalent of the well known Java tool <a href="http://pmd.sourceforge.net/">PMD</a>. PHPMD can be seen as an user friendly and easy to configure frontend for the raw metrics measured by PHP Depend.
 
-<a href="http://phpmd.org/rules/index.html">Rules</a>
-<a href="http://www.brandonsavage.net/code-complexity-and-clean-code/">Code complexity and clean code</a>
-<a href="https://www.codacy.com/public/sonata-project/SonataAdminBundle.git/master/file/%2FController%2FCRUDController.php/issues">Example Errors</a>
+* <a href="http://phpmd.org/rules/index.html">Rules</a>
+* <a href="http://www.brandonsavage.net/code-complexity-and-clean-code/">Code complexity and clean code</a>
+* <a href="https://www.codacy.com/public/sonata-project/SonataAdminBundle.git/master/file/%2FController%2FCRUDController.php/issues">Example Errors</a>
 
 ### Installing as a PEAR package
 
