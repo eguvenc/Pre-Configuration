@@ -8,6 +8,54 @@ IDE Installation &amp; Environment Setup Documents
 
 <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04">https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04</a>
 
+### Enable Apache2 Mode Rewrite (.htaccess)
+
+```php
+sudo a2enmod rewrite
+```
+
+Go
+
+```php
+vim /etc/apache2/apache2.conf
+```
+
+Replace AllowOverride None values with <b>AllowOverride All</b>.
+
+```php
+ServerName localhost
+
+# Sets the default security model of the Apache2 HTTPD server. It does
+# not allow access to the root filesystem outside of /usr/share and /var/www.
+# The former is used by web applications packaged in Debian,
+# the latter may be used for local directories served by the web server. If
+# your system is serving content from a sub-directory in /srv you must allow
+# access here, or in any related virtual host.
+<Directory />
+        Options FollowSymLinks
+        AllowOverride All
+        Require all denied
+</Directory>
+
+<Directory /usr/share>
+        AllowOverride All
+        Require all granted
+</Directory>
+
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
+```
+
+Restart Apache2
+
+```php
+sudo service apache2 restart
+```
+
+
 ### Installation Sublime-Text-3 for Ubuntu
 
 ```php
