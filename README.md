@@ -96,7 +96,7 @@ Some popular sublime packages
 <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>
 
 
-### Installing Php Extensions
+### How Can I Install Php Extensions ?
 
 
 You should add "extension=name.so" to your php.ini extension
@@ -121,7 +121,7 @@ extension=name.so
 
 Enable your extension
 
-``php
+```php
 php5enmod name
 ```
 
@@ -130,6 +130,3 @@ Restart apache
 ```php
 sudo service apache2 restart
 ```
-
-
-
