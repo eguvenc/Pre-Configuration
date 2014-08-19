@@ -94,3 +94,42 @@ Some popular sublime packages
 #### Git Ssh Key Setup
 
 <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>
+
+
+### Installing Php Extensions
+
+
+You should add "extension=name.so" to your php.ini extension
+
+```php
+cd /etc/php5/apache2/mods-available
+```
+
+Create ini file using your text editor
+
+```php
+vim name.ini
+```
+
+Paste below the lines
+
+```php
+; configuration for php NAME module
+; priority=20
+extension=name.so
+```
+
+Enable your extension
+
+``php
+php5enmod name
+```
+
+Restart apache
+
+```php
+sudo service apache2 restart
+```
+
+
+
