@@ -96,8 +96,9 @@ Some popular sublime packages
 <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>
 
 
-### How Can I Install Php Extensions ?
+### Php Extensions
 
+Tested on Ubuntu 14.04 
 
 You should add "extension=name.so" to your php.ini extension
 
@@ -105,7 +106,7 @@ You should add "extension=name.so" to your php.ini extension
 cd /etc/php5/apache2/mods-available
 ```
 
-Create ini file using your text editor
+Create your ini file using your text editor
 
 ```php
 vim name.ini
