@@ -43,6 +43,6 @@ Some popular sublime packages
 
 <a href="https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04">https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04</a>
 
-## Git Ssh Key Setup
+#### Git Ssh Key Setup
 
 <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a>
