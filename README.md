@@ -4,13 +4,9 @@ Warmup
 
 IDE Installation &amp; Environment Setup Documents
 
-### Installation Sublime-Text-2 for Ubuntu
+### Installation Apache & Php & MySQL
 
-```php
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-sudo apt-get install sublime-text
-```
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04">https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04</a>
 
 ### Installation Sublime-Text-3 for Ubuntu
 
