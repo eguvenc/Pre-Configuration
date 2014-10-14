@@ -35,4 +35,4 @@ OmniMarkupPreviewer has builtin support following markups:
 
 Go <kbd>Preferences > Package-Control > Install Package > OmniMarkupPreviewer</kbd>
 
-Run auto markdown preview with <b>[ctrl+alt+o]</b> shortcuts.
+When the a github readme file open run auto markdown preview with <b>[ctrl+alt+o]</b> shortcuts.
