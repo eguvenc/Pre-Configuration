@@ -27,3 +27,7 @@ Name: Guake
 Command: /usr/bin/guake
 Comment: Guake Terminal Startup
 ```
+
+#### Press to F12
+
+Program will run when you press F12.

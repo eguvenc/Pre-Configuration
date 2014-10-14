@@ -12,9 +12,6 @@ htmls and send it to web browser in the backgound, which enables a live preview.
 Besides, OmniMarkupPreviewer provide support for exporting result to
 html file as well.
 
-[Sublime Text 2]: http://www.sublimetext.com/2
-[Sublime Text 3]: http://www.sublimetext.com/3
-
 OmniMarkupPreviewer has builtin support following markups:
 
 * [Markdown](http://daringfireball.net/projects/markdown/)
