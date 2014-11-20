@@ -20,7 +20,7 @@ git checkout ST3
 
 ### Features
 
-1. php_namespace_copy
+#### 1. php_namespace_copy
 
 It builds the current file namespace and copies it into the clipboard.
 
@@ -28,7 +28,7 @@ Default shortcut : alt+c
 
     Note: It can be used via Goto File Overlay.
 
-2. php_namespace_insert_use
+#### 2. php_namespace_insert_use
 
 It builds the use <...>; statement of the current file namespace and inserts it into the last active file.
 
@@ -36,7 +36,7 @@ Default shortcut : alt+u
 
     Note: It can be used via Goto File Overlay.
 
-3. php_namespace_insert_namespace
+#### 3. php_namespace_insert_namespace
 
 It builds and inserts (or replaces) the namespace <...>; statement of the current file.
 
