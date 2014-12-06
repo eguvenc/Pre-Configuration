@@ -27,6 +27,12 @@ sudo rabbitmq-plugins enable rabbitmq_management
 sudo service rabbitmq-server restart
 ```
 
+### Install essential libraries
+
+```php
+sudo apt-get install build-essential libncursesw5-dev libc6-dev libtool
+```
+
 ### Download the latest rabbitmq-c library
 
 ```php
@@ -36,12 +42,6 @@ cd rabbitmq-c-0.5.2/
 ./configure
 make
 sudo make install
-```
-
-### Install essential libraries
-
-```php
-sudo apt-get install build-essential libncursesw5-dev libc6-dev libtool
 ```
 
 ### Configure, compile and install
