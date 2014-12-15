@@ -33,29 +33,39 @@ sudo service rabbitmq-server restart
 sudo apt-get install build-essential libncursesw5-dev libc6-dev libtool
 ```
 
-### Download the latest rabbitmq-c library
+```php
+sudo apt-get install librabbitmq-dev php-pear php5-dev
+```
+
+### Clean old versions
 
 ```php
-wget https://github.com/alanxz/rabbitmq-c/releases/download/v0.5.2/rabbitmq-c-0.5.2.tar.gz
-tar -zxvf rabbitmq-c-0.5.2.tar.gz
-cd rabbitmq-c-0.5.2/
-./configure
-make
-sudo make install
+locate librabbitmq.so
+
+/usr/local/lib/librabbitmq.so
+/usr/local/lib/librabbitmq.so.1
+/usr/local/lib/librabbitmq.so.1.2.1
+
+rm -rf /usr/local/lib/librabbitmq.so*
+
+updatedb
+locate librabbitmq.so
 ```
 
 ### Configure, compile and install
 
 ```php
-autoreconf -i && ./configure && make && sudo make install
-```
+pecl uninstall amqp
 
-```php
-sudo apt-get install librabbitmq-dev php-pear php5-dev
-```
-
-```php
-pecl install amqp
+apt-get install aptitude
+aptitude install libtool
+aptitude install pkg-config
+cd /tmp
+rm -rf rabbitmq-c
+git clone -b v0.5.2 git://github.com/alanxz/rabbitmq-c.git
+cd rabbitmq-c
+autoreconf -i && ./configure && make && make install
+pecl install amqp-1.4.0
 ```
 
 You should add "extension=amqp.so" to your php.ini extension
