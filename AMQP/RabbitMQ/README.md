@@ -68,10 +68,9 @@ autoreconf -i && ./configure && make && make install
 pecl install amqp-1.4.0
 ```
 
-You should add "extension=amqp.so" to your php.ini extension
-
 ```php
 cd /etc/php5/mods-available
+ll
 ```
 
 Create ini file using your text editor
@@ -104,9 +103,10 @@ sudo service apache2 restart
 
 Default panel user is <b>"guest"</b> and password is <b>"guest"</b>
 
-To Add a new root user and permissions
+To add a new user and permissions
 
 ```php
 rabbitmqctl add_user root 123456
 rabbitmqctl set_permissions root ".*" ".*" ".*"
+rabbitmqctl set_user_tags root administrator
 ```
