@@ -8,6 +8,10 @@ IDE Installation &amp; Environment Setup Documents
 
 <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04">https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04</a>
 
+### Installation Phpmyadmin
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-12-04
+
 ### Enable Apache2 Mode Rewrite (.htaccess)
 
 ```php
