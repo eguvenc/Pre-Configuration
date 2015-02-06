@@ -8,14 +8,23 @@ Codeception kurulumu iki farklı şekilde yapılmaktadır.
  
 Kullanım açısından bir birlerine karşı üstünlükleri yoktur. Tamamen tercih sebebidir.
 
-Yerel (local) kurulum
+codecept.phar
 -------------
 
 Komut satırından projenin ana (root) dizinine gidelim ve aşağıdaki komutu çalıştıralım.
 codecept.phar
 
-    wget http://codeception.com/codecept.phar
+```sh
+  $ wget http://codeception.com/codecept.phar
+```
 
+composer.phar
+-------------
+Composer ile kurulum yapmak istersek öncesinde composer paketini projemize dahil etmemiz gerekiyor. Projenizde composer kurulu ise bu adımı geçebilirsiniz.
+
+```sh
+$ curl -sS https://getcomposer.org/installer | php
+```
 Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
 ----------
