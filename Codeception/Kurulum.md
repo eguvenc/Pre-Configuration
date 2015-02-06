@@ -31,10 +31,10 @@ Global kullanım için indirdiğiniz  (composer.phar yada codecept.phar) dosyay�
 
 Örnek:
 ```sh
-mv /usr/local/bin/composer composer.phar
+$ mv /usr/local/bin/composer composer.phar
 ```
 ```sh
-mv /usr/local/bin/codecept codecept.phar
+$ mv /usr/local/bin/codecept codecept.phar
 ```
 
 
