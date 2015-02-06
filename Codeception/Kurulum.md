@@ -60,7 +60,7 @@ Testlerimiz farklı bir dizinden çalıştırılacak ise:
 $  codecept bootstrap /path/to/my/project
 ```
 
-Yukardaki adımları yaptıysanız artık Codeception kurulumu tamamlandı demektir.
+Yukardaki adımları uyguladıysanız kurulum tamamlandı demektir.
 Projenizin ana (root) dizinindeki **tests** klasörünü inceleyiniz.
 
 Enjoy testing!
