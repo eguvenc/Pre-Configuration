@@ -1,14 +1,20 @@
 Kurulum
 ===================
 
-Codeception kurulumu iki farklı şekilde yapılmaktadır. Tercih tamamen geliştiriciye bağlıdır.
+Codeception kurulumu iki farklı şekilde yapılmaktadır.
 
 - codecept.phar
 - composer.phar
+ 
+Kullanım açısından bir birlerine karşı üstünlükleri yoktur. Tamamen tercih sebebidir.
 
+Yerel (local) kurulum
+-------------
 
+Komut satırından projenin ana (root) dizinine gidelim ve aşağıdaki komutu çalıştıralım.
+codecept.phar
 
-    enter code here
+    wget http://codeception.com/codecept.phar
 
 Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
