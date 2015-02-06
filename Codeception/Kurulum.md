@@ -25,6 +25,20 @@ Composer ile kurulum yapmak istersek öncesinde composer paketini projemize dahi
 ```sh
 $ curl -sS https://getcomposer.org/installer | php
 ```
+
+> **Note:**
+Global kullanım için indirdiğiniz  (composer.phar yada codecept.phar) dosyayı **/usr/local/bin/** klasörüne taşımanız gerekmektedir.
+
+Örnek:
+```sh
+mv /usr/local/bin/composer composer.phar
+```
+```sh
+mv /usr/local/bin/codecept codecept.phar
+```
+
+
+
 Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
 ----------
