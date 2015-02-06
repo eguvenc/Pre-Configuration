@@ -8,7 +8,7 @@ Codeception kurulumu iki farklı şekilde yapılmaktadır.
  
 Kullanım açısından bir birlerine karşı üstünlükleri yoktur. Tamamen tercih sebebidir.
 
-codecept.phar
+####codecept.phar
 -------------
 
 Komut satırından projenin ana (root) dizinine gidelim ve aşağıdaki komutu çalıştıralım.
