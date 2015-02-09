@@ -51,7 +51,7 @@ Daha detaylı senaryolar için linki ziyaret edin: http://codeception.com/docs/0
 
 **Kurulum:**<br />
 1. Download [Selenium Server](http://docs.seleniumhq.org/download/)<br />
-2. ```sh $ java -jar selenium-server-standalone-2.xx.xxx.jar```
+2. ``` $ java -jar selenium-server-standalone-2.xx.xxx.jar```
 
 
 **Ayarlar:**
