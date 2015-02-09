@@ -49,7 +49,7 @@ Daha detaylı senaryolar için linki ziyaret edin: http://codeception.com/docs/0
 ##Selenium
 İlk testi **PhpBrowser** modülünü kullanarak yaptık. Burada **javascript** kullanamayacağımızı hatırlatalım. Şayet javascript testlerinide kapsayan bir testing yapılacaksa burada **Selenium** kullanılması gerekmektedir.
 
-**Kurulum:**
+**Kurulum:**<br />
 1. Download [Selenium Server](http://docs.seleniumhq.org/download/)<br />
 2. ```sh $ java -jar selenium-server-standalone-2.xx.xxx.jar```
 
