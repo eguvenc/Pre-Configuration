@@ -45,3 +45,15 @@ Yukarıdaki senaryo başarılı olursa şayet testlerin geçildiğine dair bir m
 
 
 Daha detaylı senaryolar için linki ziyaret edin: http://codeception.com/docs/04-AcceptanceTests
+
+##Selenium
+İlk testi **PhpBrowser** modülünü kullanarak yaptık. Burada **javascript** kullanamayacağımızı hatırlatalım. Şayet javascript testlerinide kapsayan bir testing yapılacaksa burada **Selenium** kullanılması gerekmektedir.
+
+**Kurulum:**
+1. Download [Selenium Server](http://docs.seleniumhq.org/download/)
+2. ```sh $ java -jar selenium-server-standalone-2.xx.xxx.jar```
+
+
+**Ayarlar:**
+
+![enter image description here](https://lh6.googleusercontent.com/-_Xx8Hg2vk6s/VNh3mgiHkGI/AAAAAAAAAMQ/opJ15Yj2QpM/s0/Screenshot+from+2015-02-09+11:00:50.png "Screenshot from 2015-02-09 11:00:50.png")
