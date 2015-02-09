@@ -13,6 +13,7 @@ $ codecept generate:cept acceptance First
 ```
 Komutu çalıştırdıktan sonra **tests/acceptance** klasörü içinde **FirstCept.php** adında yeni bir dosyanın oluştuğunu göreceksiniz.
 
+Şimdi yeni oluşturduğunuz test dosyamıza aşağıdaki senaryoyu ekleyelim.
 ```php
 <?php
 	$I = new AcceptanceTester($scenario);
@@ -25,3 +26,12 @@ Komutu çalıştırdıktan sonra **tests/acceptance** klasörü içinde **FirstC
 ?>
 ```
 
+Yukarıdaki senaryoyu kısaca incelersek;
+
+- **AcceptanceTester** classını çalıştırdık.
+- Senaryo için bir amaç yada başlık  belirledik. **(wantTo)**
+- Sonrasında **login** sayfasına gittik.
+- **login** sayfasında **id/name** username olan inputa **'davert'** değerini girdik.
+- **login** sayfasında **id/name** password olan inputa **'qwerty'** değerini girdik.
+- Value **LOGIN** olan butona tıkladık.
+- Formumuzun başarı durumunda vereceği mesajı **Welcome, Davert!** olarak kabul edip bunu sayfada aradık.
