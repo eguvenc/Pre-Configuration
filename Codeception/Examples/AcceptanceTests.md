@@ -41,7 +41,7 @@ Yukarıdaki senaryoyu kısaca incelersek;
 $ codecept run acceptance --steps
 ```
 
-Yukarıdaki senaryo başarılı olursa şayet testlerin geçildiğine dair bir mesaj görülecektir.
+Yukarıdaki senaryo başarılı olursa şayet testlerin geçildiğine dair bir mesaj görülecektir. AKsi taktirde gene başarız oldupuna dair sonuçlar düşecektir.
 
-Daha detaylı senaryolar için aşağıdaki linki ziyaret edin:
-http://codeception.com/docs/04-AcceptanceTests
+
+Daha detaylı senaryolar için linki ziyaret edin: http://codeception.com/docs/04-AcceptanceTests
