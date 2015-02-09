@@ -35,3 +35,13 @@ Yukarıdaki senaryoyu kısaca incelersek;
 - **login** sayfasında **id/name** password olan inputa **'qwerty'** değerini girdik.
 - Value **LOGIN** olan butona tıkladık.
 - Formumuzun başarı durumunda vereceği mesajı **Welcome, Davert!** olarak kabul edip bunu sayfada aradık.
+
+Şimdi testimizi çalıştıralım:
+```sh
+$ codecept run acceptance --steps
+```
+
+Yukarıdaki senaryo başarılı olursa şayet testlerin geçildiğine dair bir mesaj görülecektir.
+
+Daha detaylı senaryolar için aşağıdaki linki ziyaret edin:
+http://codeception.com/docs/04-AcceptanceTests
