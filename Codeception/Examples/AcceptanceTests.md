@@ -57,3 +57,5 @@ Daha detaylı senaryolar için linki ziyaret edin: http://codeception.com/docs/0
 **Ayarlar:**
 
 ![enter image description here](https://lh6.googleusercontent.com/-_Xx8Hg2vk6s/VNh3mgiHkGI/AAAAAAAAAMQ/opJ15Yj2QpM/s0/Screenshot+from+2015-02-09+11:00:50.png "Screenshot from 2015-02-09 11:00:50.png")
+
+Selenium için ilgili ortamı hazırladıktan sonra test senaryolarını aynı PhpBrowser da olduğu gibi yazabiliyoruz. Birbirlerine karşı ufak farklılıklar dışında tamamen aynıdır.
