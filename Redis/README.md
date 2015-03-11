@@ -25,6 +25,20 @@ To edit your conf file
 vim /etc/redis/redis.conf
 ```
 
+## Adding Password
+
+Open redis.conf then uncomment below the line and set your password.
+
+```php
+# requirepass foobared
+```
+
+Restart your server
+
+```php
+service redis-server restart
+```
+
 Example config file
 
 ```php
