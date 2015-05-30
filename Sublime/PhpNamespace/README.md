@@ -1,3 +1,4 @@
+
 ## PHP Namespace
 
 PHP Namespace is a 3 in 1 package to use PHP Namespaces with SublimeText 2 and 3.

@@ -16,6 +16,12 @@ $ pear install PHP_CodeSniffer
 
 ```
 
+Install Code Sniffer
+
+<kbd>Preferences > Package-Control > Install Package > PHPcs</kbd>
+
+Then
+
 #### Enable it for sublime
 
 
