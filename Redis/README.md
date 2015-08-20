@@ -146,3 +146,9 @@ $config = array(
 
 ?>
 ```
+
+Visit
+
+```php
+http://localhost/phpRedisAdmin/
+```
