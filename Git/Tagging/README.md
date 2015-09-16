@@ -50,6 +50,12 @@ Total 44 (delta 18), reused 8 (delta 1)
 To git@github.com:schacon/simplegit.git
 * [new tag]         v1.5 -> v1.5
 ```
+#### Deleting a tag
+
+```
+git tag -d v1.5
+git push origin :refs/tags/v1.5
+```
 
 #### Reverting to a previous version
 
