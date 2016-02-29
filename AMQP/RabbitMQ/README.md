@@ -55,6 +55,7 @@ locate librabbitmq.so
 ### Configure, compile and install
 
 ```php
+apt-get install php-pear
 pecl uninstall amqp
 
 apt-get install aptitude
