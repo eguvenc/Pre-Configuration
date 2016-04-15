@@ -66,7 +66,7 @@ rm -rf rabbitmq-c
 git clone -b v0.5.2 git://github.com/alanxz/rabbitmq-c.git
 cd rabbitmq-c
 autoreconf -i && ./configure && make && make install
-pecl install amqp-1.4.0
+pecl install amqp-1.6.1
 ```
 
 ```php
