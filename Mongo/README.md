@@ -12,9 +12,21 @@ sudo pecl install mongo
 ```
 
 ```
-sudo touch /etc/php5/conf.d/mongo.ini
+sudo touch /etc/php5/mods-available/mongo.ini
 ```
 
 ```
 extension=mongo.so
+```
+
+Then enable mongo module.
+
+```
+php5enmod mongo
+```
+
+Restart your server
+
+```
+service apache2 restart
 ```
