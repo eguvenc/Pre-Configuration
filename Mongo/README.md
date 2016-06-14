@@ -31,7 +31,16 @@ service apache2 restart
 
 ## Installing RockMongo (Php mongo admin)
 
-Download <a href="http://obullo.com/utils/rockmongo.zip">Rockmongo.zip</a> and extract your www root.
+Download <a href="http://obullo.com/utils/rockmongo.zip">Rockmongo.zip</a> and extract it to your /var/www/html/ folder.
 
 Then edit config.php.
+
+Browse
+
+```
+http://localhost/rockmongo
+```
+
+username: admin
+password: admin
 
