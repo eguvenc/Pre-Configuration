@@ -41,6 +41,6 @@ Browse
 http://localhost/rockmongo
 ```
 
-username: admin
+username: admin <br />
 password: admin
 
