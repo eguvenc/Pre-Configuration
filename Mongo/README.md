@@ -1,9 +1,7 @@
 
+## Installing Mongo Server
+
 https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
-
-Download <a href="http://obullo.com/utils/rockmongo.zip">Rockmongo.zip</a> and extract your www root.
-
-Then edit config.php.
 
 ## Installing PHP Mongo Extension
 
@@ -30,3 +28,10 @@ Restart your server
 ```
 service apache2 restart
 ```
+
+## Installing RockMongo (Php mongo admin)
+
+Download <a href="http://obullo.com/utils/rockmongo.zip">Rockmongo.zip</a> and extract your www root.
+
+Then edit config.php.
+
