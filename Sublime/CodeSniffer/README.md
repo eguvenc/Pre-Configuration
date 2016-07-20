@@ -64,7 +64,7 @@ Paste it above the text.
 Configure a Build Command in Sublime Text 3
 
 * Open Sublime Text
-* Got to Tools > Build System > New Build System…
+* Got to <kbd>Tools > Build System > New Build System</kbd>
 
 Enter the following command and save:
 
