@@ -24,10 +24,7 @@ Then
 
 #### Enable it for sublime
 
-
 Go <kbd>Preferences > Package Settings > PHP Code Sniffer > Settings - User</kbd>
-
-Obullo use <b>PEAR</b> coding standarts.
 
 ```php
 {
@@ -35,7 +32,7 @@ Obullo use <b>PEAR</b> coding standarts.
     "phpcs_show_quick_panel": false,
  
     "phpcs_additional_args": {
-        "--standard": "PEAR",
+        "--standard": "PSR2",
         "-n": ""
     },
     // Execute phpmd
@@ -61,3 +58,27 @@ Obullo use <b>PEAR</b> coding standarts.
 ```
 
 Paste it above the text.
+
+### To fix code errors with Phpcbf
+
+Configure a Build Command in Sublime Text 3
+
+* Open Sublime Text
+* Got to Tools > Build System > New Build System…
+
+Enter the following command and save:
+
+```php
+{
+    "shell_cmd": "phpcbf --standart=PSR2 $file"
+}
+```
+
+That’s it. When you run this command, phpcbf will apply psr-2 standards to the current file you have open.
+
+Run the command by pressing <kbd>Control + B</kbd>
+
+### Another Alternative Php-Cs-Fixer
+
+<a href="http://www.codehops.com/2016/04/07/setup-php-cs-fixer-for-sublime-text-3-on-os-x.html">http://www.codehops.com/2016/04/07/setup-php-cs-fixer-for-sublime-text-3-on-os-x.html</a>
+
