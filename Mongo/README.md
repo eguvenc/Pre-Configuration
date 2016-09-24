@@ -4,7 +4,13 @@
 * https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
 * https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
 
-## Installing PHP Mongo Extension
+## Installing PHP Mongo Extension (Ubuntu 16.04)
+
+```
+sudo apt-get install php-mongodb
+```
+
+## Installing PHP Mongo Extension (Ubuntu 14.04)
 
 ```
 sudo pecl install mongo
