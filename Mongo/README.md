@@ -1,8 +1,8 @@
 
 ## Installing Mongo Server
 
-https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
-https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+* https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-14-04
+* https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
 
 ## Installing PHP Mongo Extension
 
