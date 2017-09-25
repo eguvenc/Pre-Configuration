@@ -48,6 +48,6 @@ Press <enter> to keep the current choice[*], or type selection number: 1
 
 for more details
 
-<a href="http://www.lornajane.net/posts/2016/php-7-0-and-5-6-on-ubuntu"></a>
+<a href="http://www.lornajane.net/posts/2016/php-7-0-and-5-6-on-ubuntu">http://www.lornajane.net/posts/2016/php-7-0-and-5-6-on-ubuntu</a>
 
 
