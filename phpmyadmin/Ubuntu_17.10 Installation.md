@@ -6,12 +6,14 @@
 
 ## Ubuntu  17.10 differences
 
+```
 apt-get install phpmyadmin
-
+```
 ```
 vim /etc/apache2/conf-available/phpmyadmin.conf
-``
+```
 Paste
+
 ```
 Include /etc/phpmyadmin/apache.conf
 ```
