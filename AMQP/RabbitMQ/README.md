@@ -3,7 +3,7 @@
 
 -----
 
-## Installing RabbitMQ-Server under the Ubuntu 14.04
+## Installing RabbitMQ-Server under the Ubuntu 14.04 & 18.04
 
 ```php
 sudo apt-get remove rabbitmq-server
@@ -34,7 +34,7 @@ sudo apt-get install build-essential libncursesw5-dev libc6-dev libtool
 ```
 
 ```php
-sudo apt-get install librabbitmq-dev php-pear php5-dev
+sudo apt-get install librabbitmq-dev php-pear php7.2-dev
 ```
 
 ### Clean old versions
@@ -55,22 +55,25 @@ locate librabbitmq.so
 ### Configure, compile and install
 
 ```php
-apt-get install php-pear
-pecl uninstall amqp
+sudo apt-get -q -y install cmake
+cd ~
+git clone https://github.com/alanxz/rabbitmq-c.git
+cd ~/rabbitmq-c
+git checkout v0.9.0
+mkdir build && cd build
+sudo cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
+sudo cmake --build . --target install
+sudo pecl install amqp
 
-apt-get install aptitude
-aptitude install libtool
-aptitude install pkg-config
-cd /tmp
-rm -rf rabbitmq-c
-git clone -b v0.5.2 git://github.com/alanxz/rabbitmq-c.git
-cd rabbitmq-c
-autoreconf -i && ./configure && make && make install
-pecl install amqp-1.6.1
+sudo -s
+echo "extension=amqp.so" > /etc/php7.2/mods-available/amqp.ini
+exit
+
+sudo service apache restart
 ```
 
 ```php
-cd /etc/php5/mods-available
+cd /etc/php7.2/mods-available
 ll
 ```
 
@@ -91,7 +94,7 @@ extension=amqp.so
 Enable amqp extension
 
 ```php
-php5enmod amqp
+phpenmod amqp
 ```
 
 ```php
