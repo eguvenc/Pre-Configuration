@@ -18,12 +18,13 @@ Save the file.
 
 The last steps are making a difference with the previous version of Windows.
 
-*Going to your PC’s Control Panel.
-*Select System.
-*Select Advanced system settings.
-*From System Properties, select Environment Variables.
-*Under System Variables find the variable Path. Select it and click edit.
-*At the end of the Variable Value add your PHP’s path location. In my case it was C:\wamp\bin\php\php5.5.12\. All paths are separated by a ; so be sure to add one, if there isn’t already, followed by your PHP’s file path.
-*Restart your Sublime Text editor.
+	
+1. Going to your PC’s Control Panel.
+2. Select System.
+3. Select Advanced system settings.
+4. From System Properties, select Environment Variables.
+5. Under System Variables find the variable Path. Select it and click edit.
+6. At the end of the Variable Value add your PHP’s path location. In my case it was C:\wamp\bin\php\php5.5.12\. All paths are separated by a ; so be sure to add one, if there isn’t already, followed by your PHP’s file path.
+7. Restart your Sublime Text editor.
 
 https://pupungbp.com/activating-php-sublimetext-3-error-highlighting-under-windows-10/
