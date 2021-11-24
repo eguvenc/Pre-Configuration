@@ -18,13 +18,18 @@ Save the file.
 
 The last steps are making a difference with the previous version of Windows.
 
-	
-1. Going to your PC’s Control Panel.
-2. Select System.
-3. Select Advanced system settings.
-4. From System Properties, select Environment Variables.
-5. Under System Variables find the variable Path. Select it and click edit.
-6. At the end of the Variable Value add your PHP’s path location. In my case it was C:\wamp\bin\php\php5.5.12\. All paths are separated by a ; so be sure to add one, if there isn’t already, followed by your PHP’s file path.
-7. Restart your Sublime Text editor.
+Installation steps:
 
+- Download the desired PHP x86 version: http://windows.php.net/download/
+- Unzip the files into C:/PHP/
+- Open Sublime.
+- Press CTRL+SHIFT+P
+- Enter  Install Package and choose Package Control: Install Package
+- Enter SublimeLinter and click on enter to install.
+- Do the same in step 5 and 6 for the package SublimerLinter-PHP.
+- Open Preferences -> Package Settings -> SublimeLinter -> Settings – User
+- Change in the paths key “windows”: [] to “windows”: [“C:/PHP/”]
+- Save the file and restart Sublime.
+
+https://www.yourwebhoster.eu/2015/10/26/install-sublimelinter-php-on-windows/
 https://pupungbp.com/activating-php-sublimetext-3-error-highlighting-under-windows-10/
