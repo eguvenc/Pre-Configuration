@@ -9,7 +9,7 @@ Add PHP Executable folder to the Path, in my case php.exe located in C:\wamp\bin
             "linux": [],
             "osx": [],
             "windows": [
-                "C:/wamp/bin/php/php5.5.12/"
+                "C:/PHP/"
             ]
         },
 ```
