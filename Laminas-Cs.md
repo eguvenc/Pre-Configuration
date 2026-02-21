@@ -7,6 +7,20 @@ Remove old packages
 sudo apt remove php-codesniffer
 ```
 
+Create composer global directory if not exists
+
+```
+mkdir -p ~/.config/composer
+```
+
+Composer installation must point this global path --install-dir=$HOME/.config/composer
+
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php --install-dir=$HOME/.config/composer --filename=composer
+php -r "unlink('composer-setup.php');"
+```
+
 Install new packages with composer
 
 ***WARNING ! : User must not be root !***
